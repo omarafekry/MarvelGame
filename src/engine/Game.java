@@ -69,7 +69,7 @@ public class Game implements Serializable{
 		placeChampions();
 		placeCovers();
 	}
-
+//
 	public static void loadAbilities(String filePath) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filePath));
 		String line = br.readLine();
